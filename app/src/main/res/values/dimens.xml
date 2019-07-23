@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">9dp</dimen>
+    <dimen name="text_debug">10sp</dimen>
+    <dimen name="text_size_kucuk">12sp</dimen>
+    <dimen name="text_size_orta">16sp</dimen>
+    <dimen name="text_size_buyuk">20sp</dimen>
+    <dimen name="text_list_1">12sp</dimen>
+    <dimen name="text_list_2">14sp</dimen>
+    <dimen name="text_list_3">16sp</dimen>
+    <dimen name="text_list_4">18sp</dimen>
+    <dimen name="text_list_5">20sp</dimen>
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.enes.ilerlemetakipcisi.ozelList">
+
+    <TextView
+        android:id="@+id/textId"
+        android:textSize="@dimen/text_debug"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textIsim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:text="@string/app_ilkdeger_kayitbaslik"
+        android:textSize="@dimen/text_list_5" />
+
+    <TextView
+        android:id="@+id/textDeger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/textIsim"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:text="@string/app_ilkdeger_kayitdeger"
+        android:textSize="@dimen/text_list_3" />
+
+    <TextView
+        android:id="@+id/textBirim1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textDeger"
+        android:layout_toEndOf="@id/textDeger"
+        android:layout_toRightOf="@id/textDeger"
+        android:text="@string/app_ilkdeger_kayitbirim"
+        android:textSize="@dimen/text_list_3"
+        android:layout_marginLeft="5sp"
+        android:layout_marginStart="5sp"/>
+
+    <TextView
+        android:id="@+id/textSlash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textBirim1"
+        android:layout_below="@id/textIsim"
+        android:layout_toEndOf="@id/textBirim1"
+        android:layout_toRightOf="@id/textBirim1"
+        android:text="@string/app_ayrac"
+        android:textSize="@dimen/text_list_3" />
+
+    <TextView
+        android:id="@+id/textLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textSlash"
+        android:layout_toEndOf="@id/textSlash"
+        android:layout_toRightOf="@id/textSlash"
+        android:text="@string/app_ilkdeger_kayitdeger"
+        android:textSize="@dimen/text_list_3" />
+
+    <TextView
+        android:id="@+id/textBirim2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textLimit"
+        android:layout_marginLeft="5sp"
+        android:layout_marginStart="5sp"
+        android:layout_toEndOf="@id/textLimit"
+        android:layout_toRightOf="@id/textLimit"
+        android:text="@string/app_ilkdeger_kayitbirim"
+        android:textSize="@dimen/text_list_3" />
+
+    <Button
+        android:id="@+id/butonEksi"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_below="@id/textBirim2"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toLeftOf="@id/butonArti"
+        android:layout_toStartOf="@id/butonArti"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/ButonKoyu"
+        android:text="@string/text_EKSI"
+        android:textAlignment="center"
+        android:textColor="@color/Beyaz"
+        android:textSize="@dimen/text_list_5"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <Button
+        android:id="@+id/butonArti"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/textBirim2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/ButonAcik"
+        android:text="@string/text_ARTI"
+        android:textAlignment="center"
+        android:textColor="@color/Beyaz"
+        android:textSize="@dimen/text_list_5"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <ImageButton
+        android:id="@+id/butonSifirla"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_below="@id/textBirim2"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toLeftOf="@id/butonEksi"
+        android:layout_toStartOf="@id/butonEksi"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/ButonMedium"
+        android:src="@android:drawable/ic_menu_revert"
+        android:textAlignment="center"
+        android:textColor="@color/Beyaz"
+        android:contentDescription="@string/butonSifirla_aciklama"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+</RelativeLayout>

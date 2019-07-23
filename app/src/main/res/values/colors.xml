@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#263238</color>
+    <color name="Gri">#757575</color>
+    <color name="Yesil">#43a047</color>
+    <color name="Sari">#afb42b</color>
+    <color name="Turuncu">#f57f17</color>
+    <color name="Kirmizi">#d50000</color>
+    <color name="ButonAcik">#455a64</color>
+    <color name="ButonKoyu">#19363d</color>
+    <color name="ButonMedium">#212121</color>
+    <color name="Beyaz">#e0e0e0</color>
+</resources>

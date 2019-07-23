@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">İlerleme Takipçisi</string>
+    <string name="text_kayitYok">Hiç kayıt yok :(\nArtı butonundan veya sağ üst köşeden yeni bir kayıt ekleyebilirsin.</string>
+    <string name="text_KOIsim">Kayıt Başlığı: </string>
+    <string name="text_KOBaslangic">Başlangıç Değeri: </string>
+    <string name="text_KOArtis">Değişim Miktarı: </string>
+    <string name="text_KOBirim">Birimi: </string>
+    <string name="text_KOLimitliMi">Limit Ekle</string>
+    <string name="text_KOLimit">Limit/Hedef: </string>
+    <string name="text_BEBirimAdi">Birim Adı: </string>
+    <string name="text_KORenklendirme">Renklendirme: </string>
+    <string name="text_KAYDET">Kaydet</string>
+    <string name="text_IPTAL">İptal</string>
+    <string name="text_GERI">Geri</string>
+    <string name="text_EKLE">Ekle</string>
+    <string name="text_EVET">Evet</string>
+    <string name="text_HAYIR">Hayır</string>
+    <string name="text_ARTI">+</string>
+    <string name="text_EKSI">-</string>
+    <string name="action_ekle_kayit">Yeni Kayıt Ekle</string>
+    <string name="action_ekle_birim">Birimleri Yönet</string>
+    <string name="action_ayarlar">Ayarlar</string>
+    <string name="text_SIL">Sil</string>
+    <string name="text_baslik_birim_ekle">Yeni Birim Ekle</string>
+    <string name="text_baslik_birim_sil">Birim Sil</string>
+    <string name="butonSifirla_aciklama">Değeri sıfırla</string>
+
+    <string name="app_ilkdeger_kayitbaslik">Uçan Atlar</string>
+    <string name="app_ilkdeger_kayitdeger">500</string>
+    <string name="app_ilkdeger_kayitbirim">At</string>
+    <string name="app_ayrac">/</string>
+
+    <string name="app_default_deger">0</string>
+    <string name="app_default_degisim">1</string>
+</resources>

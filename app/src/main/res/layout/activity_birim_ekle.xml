@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.enes.ilerlemetakipcisi.BirimEkle">
+
+    <TextView
+        android:id="@+id/textBirimEkleBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_baslik_birim_ekle"
+        android:textSize="@dimen/text_size_kucuk"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textBirimAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textBirimEkleBaslik"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/text_BEBirimAdi"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <EditText
+        android:id="@+id/inputBirimAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="-8dp"
+        android:layout_toRightOf="@id/textBirimAdi"
+        android:layout_toEndOf="@id/textBirimAdi"
+        android:ems="5"
+        android:maxLength="16"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <Button
+        android:id="@+id/butonBirimEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/text_EKLE"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:ignore="RelativeOverlap" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/textBirimAdi"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/textBirimSilBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@id/textBirimAdi"
+        android:text="@string/text_baslik_birim_sil"
+        android:textSize="@dimen/text_size_kucuk"
+        android:textColor="@color/colorPrimary"/>
+
+    <Spinner
+        android:id="@+id/acilirListeBirimSil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/textBirimSilBaslik"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:spinnerMode="dropdown"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <Button
+        android:id="@+id/butonBirimSil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_alignBottom="@id/acilirListeBirimSil"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/text_SIL"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/acilirListeBirimSil"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/butonBirimIptal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/text_GERI"/>
+</RelativeLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.enes.ilerlemetakipcisi.KayitOlustur">
+
+    <TextView
+        android:id="@+id/textKayitOlusturIsim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text_KOIsim"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <EditText
+        android:id="@+id/inputKayitOlusturIsim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textKayitOlusturIsim"
+        android:layout_toEndOf="@id/textKayitOlusturIsim"
+        android:layout_alignBottom="@id/textKayitOlusturIsim"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="-8dp"
+        android:inputType="textPersonName"
+        android:maxLength="32"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <TextView
+        android:id="@+id/textKayitOlusturBaslangic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/textKayitOlusturIsim"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text_KOBaslangic"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <EditText
+        android:id="@+id/inputKayitOlusturBaslangic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textKayitOlusturBaslangic"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="-8dp"
+        android:ems="5"
+        android:inputType="number"
+        android:maxLength="9"
+        android:text="@string/app_default_deger"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <TextView
+        android:id="@+id/textKayitOlusturArtis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/textKayitOlusturBaslangic"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text_KOArtis"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <EditText
+        android:id="@+id/inputKayitOlusturArtis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textKayitOlusturArtis"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="-10dp"
+        android:ems="5"
+        android:inputType="number"
+        android:maxLength="5"
+        android:text="@string/app_default_degisim"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <TextView
+        android:id="@+id/textKayitOlusturBirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/textKayitOlusturArtis"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text_KOBirim"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <Spinner
+        android:id="@+id/acilirListeBirimler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/textKayitOlusturBirim"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/textKayitOlusturBirim"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/textKayitOlusturBirim"
+        android:layout_toRightOf="@+id/textKayitOlusturBirim"
+        android:spinnerMode="dropdown"
+        android:textAlignment="gravity"
+        android:gravity="end"
+        android:textSize="@dimen/text_size_orta" />
+
+    <TextView
+        android:id="@+id/textKayitOlusturLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/textKayitOlusturBirim"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text_KOLimit"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <EditText
+        android:id="@+id/inputKayitOlusturLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textKayitOlusturLimit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="-8dp"
+        android:ems="5"
+        android:maxLength="9"
+        android:inputType="number"
+        android:text="@string/app_default_deger"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <TextView
+        android:id="@+id/textRenklendirme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/textKayitOlusturLimit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text_KORenklendirme"
+        android:textSize="@dimen/text_size_orta"/>
+
+    <Spinner
+        android:id="@+id/acilirListeRenklendirme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/textRenklendirme"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textRenklendirme"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/textRenklendirme"
+        android:layout_toRightOf="@+id/textRenklendirme"
+        android:spinnerMode="dropdown"
+        android:textAlignment="gravity"
+        android:gravity="right"
+        android:textSize="@dimen/text_size_orta"/>
+
+
+
+    <Button
+        android:id="@+id/butonKayitEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/textRenklendirme"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text_EKLE"/>
+
+    <Button
+        android:id="@+id/butonKayitIptal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/textRenklendirme"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text_IPTAL"/>
+
+
+</RelativeLayout>
+</ScrollView>

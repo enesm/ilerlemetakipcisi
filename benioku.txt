@@ -1,0 +1,23 @@
+Projenin Amacý
+
+	Bu projenin amacý kullanýcýnýn belirlediði bir hedefi, deðeri, kaydý vs. kolayca takip edebilmek, düzenlemek,
+efor sarfetmeden artýrýp, azaltmaktýr. Kullanýcý, eklediði kayýta isterse bir birim atayabilir, isterse birimsiz kullanabilir.
+Bu sayede kolayca ilerlemelerini takip altýnda tutabilir.
+
+Uygulamanýn Kullanýlmasý
+
+	Uygulama ilk çalýþtýrýldýðýnda kullanýcý boþ bir kayýt ekranýyla karþýlaþýr. Bu ekran kullanýcý kayýtlarýný listeler.
+Kullanýcý, ekranýn alt köþesindeki veya üst köþede bulunan menü altýnda yeni bir kayýt ekler. Kayýt ekleme ekranýna yönlendirilir.
+Bu ekranda son kullanýcý, kayýt için istediði deðerleri belirler, seçeneklerini ayarlar ve kayýt oluþturulur. Ýþlem sonunda 
+tekrar ana ekrana yönlendirilir. Eðer kullanýcý kayýt eklerken ihtiyaç duyduðu  etiket/birimi bulamazsa, ana ekranda üst köþede
+bulunan menu altýndan kendi birimini ekleyebilir. Ana ekran üzerindeyken, belli bir kaydý silmek için, kayýt üzerine basýlý
+tutup "Sil" seçeneðini kullanýr. Ayný þekilde bir kaydý düzenlemek için "Düzenle" seçeneðini kullanarak düzenleme ekranýna 
+yönlendirilir.
+
+Proje Detaylarý
+
+	Uygulama, çalýþabilmesi için gerekli herhangi bir ekstra izne, herhangi bir internet baðlantýsýna gerek duymamaktadýr. 
+Uygulama, verileri saklamak için SQLite Database kullanýr. Veriler localde saklanýr. Kaynak kodlar, 9 java classýna sahiptir. 
+Projede kullanýlan kütüphanelerin tümü android altýnda mevcuttur.
+
+Bu proje Enes Malik Fýrat tarafýndan yazýlmýþtýr.
